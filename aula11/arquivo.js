@@ -7,7 +7,7 @@ function calcular() {
     ${nota}</strong>.</p>`
 
     if (nota < 5) {
-        res.innerHTML - 'Em <strong>RECUPERAÇÃO</strong>, se esforce.'
+        res.innerHTML -= 'Em <strong>RECUPERAÇÃO</strong>, se esforce.'
     } else {
         res.innerHTML += 'Em <strong>APROVAÇÃO</strong>, parabéns.'
     }
