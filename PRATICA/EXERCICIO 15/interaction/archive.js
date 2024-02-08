@@ -56,7 +56,7 @@ function verify() {
                 }
             }
         }
-        res.innerHTML = `Detectamos <strong>${gender} com ${yo} anos.</strong>`
+        res.innerHTML = `Detectamos <strong>${gender} com ${yo} anos.</strong> <br>`
         res.appendChild(img)
     }
 }
