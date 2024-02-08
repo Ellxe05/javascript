@@ -5,6 +5,7 @@ function load() {
     let hour = date.getHours()
     msg.innerHTML = `São <strong>${hour} horas.</strong>`
 
+    hour = 16
     if (hour >= 5 && hour < 12) {
         // MORNING
         pt.src = 'images/morning.jpg'
@@ -17,11 +18,11 @@ function load() {
         } else {
             if (hour >= 16 && hour <= 18) {
                 // SUNSET
-                pt.src = 'images/sunset.jpg'
+                pt.src = 'images/sunset2.jpg'
                 document.body.style.background = '#d5b942'
             } else {
                 // NIGHT
-                    pt.src = 'images/night.jpg'
+                    pt.src = 'images/night2.jpg'
                     document.body.style.background = '#101119'
             }
         }
