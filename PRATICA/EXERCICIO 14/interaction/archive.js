@@ -5,7 +5,6 @@ function load() {
     let hour = date.getHours()
     msg.innerHTML = `São <strong>${hour} horas.</strong>`
 
-    hour = 16
     if (hour >= 5 && hour < 12) {
         // MORNING
         pt.src = 'images/morning.jpg'
