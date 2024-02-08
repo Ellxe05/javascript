@@ -13,7 +13,7 @@ function load() {
         if (hour >= 12 && hour < 16) {
             // AFTERNOON
             pt.src = 'images/afternoon.jpg'
-            document.body.style.background = '#47ff9a'
+            document.body.style.background = 'green'
         } else {
             if (hour >= 16 && hour <= 18) {
                 // SUNSET
